@@ -12,29 +12,36 @@
 
 /* ================================================================ */
 
+
+body{
+	overflow: hidden;
+}
+
 .wrapper{
 	overflow: hidden;
 	font-family: 'PressStart2P-Regular' ;
-	max-width: 100%;
-	min-height: 100%;
 	background-color: rgb(249, 248, 255);
 }
 
 .wrapper_easy{
 	overflow: hidden;
+	margin-bottom: 100px;
 	font-family: 'PressStart2P-Regular' ;
 	max-width: 100%;
 	min-height: 100%;
 	background: url('../img/wallpaperflare.com_wallpaper.jpg') 0 0/100% 100% no-repeat;
+	box-shadow: 0 5px 20px rgba(219, 0, 208, 0.801);
 }
 
 
 .wrapper_normal{
 	overflow: hidden;
+	margin-bottom: 100px;
 	font-family: 'PressStart2P-Regular' ;
 	max-width: 100%;
 	min-height: 100%;
 	background: url('../img/fon-oboi-pikseli-kvadrat-rozovyi.jpg');
+	box-shadow: 0 5px 20px rgb(0, 75, 0);
 }
 
 .conteiner_game{
@@ -45,12 +52,8 @@
 	background: url('../img/backgraund.gif') 50% 100px no-repeat;
 	padding-bottom: 50px;
 	box-shadow: 5px 5px 10px pink;
+	margin-bottom: 500px;
 }
-
-.game_picture{
-	
-}
-
 
 h1{
 	margin: 10px;
@@ -132,6 +135,7 @@ h1{
 	height: 550px;
 	background-color: rgba(241, 86, 171, 0.685);
 	box-shadow: 0 0 20px rgb(0, 107, 45);
+
 	
 }
 
