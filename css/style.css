@@ -152,6 +152,7 @@ h1{
 }
 
 .player_2 {
+	
 	width: 300px;
 	height: 20px;
 	display: inline-block;
@@ -164,6 +165,7 @@ h1{
 }
 
 .player_3 {
+	margin-top: -20px;
 	margin-left: 290px;
 	width: 50px;
 	height: 10px;
